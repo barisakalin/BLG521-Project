@@ -1,0 +1,14 @@
+
+[1m2025-05-01 at 20:08:06 | Toolbox INFO | Starting: LaCAM, {'name': 'LaCAM'}
+Error in callback <bound method _WandbInit._pause_backend of <wandb.sdk.wandb_init._WandbInit object at 0x7f25600ae680>> (for post_run_cell), with arguments args (<ExecutionResult object at 7f24872ba470, execution_count=3 error_before_exec=None error_in_exec=Object <ipykernel.iostream.OutStream object at 0x7f2563e46b90> cannot be deterministically hashed. This likely indicates that the object cannot be serialized deterministically. info=<ExecutionInfo object at 7f24872b9d80, raw_cell="if __name__ == '__main__':
+    main()" store_history=True silent=False shell_futures=True cell_id=vscode-notebook-cell://wsl%2Bubuntu-20.04/mnt/c/Users/Oguzhan%20Karaarslan/Desktop/repos/pogema-lacam-dcc/algorithms/eval.ipynb#W2sdnNjb2RlLXJlbW90ZQ%3D%3D> result=None>,),kwargs {}:
+Error in callback <bound method _WandbInit._resume_backend of <wandb.sdk.wandb_init._WandbInit object at 0x7f25600ae680>> (for pre_run_cell), with arguments args (<ExecutionInfo object at 7f2444fd3f70, raw_cell="def __jupyter_exec_background__():
+    from IPytho.." store_history=False silent=False shell_futures=True cell_id=None>,),kwargs {}:
+Error in callback <bound method _WandbInit._pause_backend of <wandb.sdk.wandb_init._WandbInit object at 0x7f25600ae680>> (for post_run_cell), with arguments args (<ExecutionResult object at 7f2444fd3b20, execution_count=None error_before_exec=None error_in_exec=None info=<ExecutionInfo object at 7f2444fd3f70, raw_cell="def __jupyter_exec_background__():
+    from IPytho.." store_history=False silent=False shell_futures=True cell_id=None> result=None>,),kwargs {}:
+[33m[1m2025-05-01 at 20:09:17 | Toolbox WARNING | Registering existing environment with name Environment
+[33m[1m2025-05-01 at 20:09:17 | Toolbox WARNING | Registering existing algorithm with name LaCAM
+[33m[1m2025-05-01 at 20:09:17 | Toolbox WARNING | Registering existing algorithm with name DCC
+Error in callback <bound method _WandbInit._resume_backend of <wandb.sdk.wandb_init._WandbInit object at 0x7f25600ae680>> (for pre_run_cell), with arguments args (<ExecutionInfo object at 7f2444d59780, raw_cell="PROJECT_NAME = 'Benchmark'
+BASE_PATH = Path('exper.." store_history=True silent=False shell_futures=True cell_id=vscode-notebook-cell://wsl%2Bubuntu-20.04/mnt/c/Users/Oguzhan%20Karaarslan/Desktop/repos/pogema-lacam-dcc/algorithms/eval.ipynb#W1sdnNjb2RlLXJlbW90ZQ%3D%3D>,),kwargs {}:
+Error in callback <bound method _WandbInit._pause_backend of <wandb.sdk.wandb_init._WandbInit object at 0x7f25600ae680>> (for post_run_cell), with arguments args (<ExecutionResult object at 7f2444d58f10, execution_count=4 error_before_exec=None error_in_exec=None info=<ExecutionInfo object at 7f2444d59780, raw_cell="PROJECT_NAME = 'Benchmark'

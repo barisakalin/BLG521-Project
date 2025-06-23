@@ -1,0 +1,36 @@
+2025-05-01 20:07:06,838 INFO    StreamThr :51538 [internal.py:wandb_internal():88] W&B internal server running at pid: 51538, started at: 2025-05-01 20:07:06.834794
+2025-05-01 20:07:06,841 DEBUG   HandlerThread:51538 [handler.py:handle_request():138] handle_request: status
+2025-05-01 20:07:06,844 DEBUG   SenderThread:51538 [sender.py:send_request():317] send_request: status
+2025-05-01 20:07:06,849 DEBUG   SenderThread:51538 [sender.py:send():303] send: header
+2025-05-01 20:07:06,849 INFO    WriterThread:51538 [datastore.py:open_for_write():75] open: /mnt/c/Users/Oguzhan Karaarslan/Desktop/repos/pogema-lacam-dcc/algorithms/wandb/run-20250501_200706-h29w7ie3/run-h29w7ie3.wandb
+2025-05-01 20:07:07,025 DEBUG   SenderThread:51538 [sender.py:send():303] send: run
+2025-05-01 20:07:07,811 DEBUG   HandlerThread:51538 [handler.py:handle_request():138] handle_request: check_version
+2025-05-01 20:07:07,845 INFO    SenderThread:51538 [dir_watcher.py:__init__():216] watching files in: /mnt/c/Users/Oguzhan Karaarslan/Desktop/repos/pogema-lacam-dcc/algorithms/wandb/run-20250501_200706-h29w7ie3/files
+2025-05-01 20:07:07,846 INFO    SenderThread:51538 [sender.py:_start_run_threads():928] run started: h29w7ie3 with start time 1746119226.835624
+2025-05-01 20:07:07,846 DEBUG   SenderThread:51538 [sender.py:send():303] send: summary
+2025-05-01 20:07:07,853 INFO    SenderThread:51538 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2025-05-01 20:07:07,856 DEBUG   SenderThread:51538 [sender.py:send_request():317] send_request: check_version
+2025-05-01 20:07:08,171 DEBUG   HandlerThread:51538 [handler.py:handle_request():138] handle_request: run_start
+2025-05-01 20:07:08,427 DEBUG   HandlerThread:51538 [meta.py:__init__():34] meta init
+2025-05-01 20:07:08,427 DEBUG   HandlerThread:51538 [meta.py:__init__():49] meta init done
+2025-05-01 20:07:08,428 DEBUG   HandlerThread:51538 [meta.py:probe():215] probe
+2025-05-01 20:07:08,526 DEBUG   HandlerThread:51538 [meta.py:_setup_git():205] setup git
+2025-05-01 20:07:08,627 DEBUG   HandlerThread:51538 [meta.py:_setup_git():212] setup git done
+2025-05-01 20:07:08,628 DEBUG   HandlerThread:51538 [meta.py:_save_pip():53] save pip
+2025-05-01 20:07:08,635 DEBUG   HandlerThread:51538 [meta.py:_save_pip():67] save pip done
+2025-05-01 20:07:08,636 DEBUG   HandlerThread:51538 [meta.py:probe():253] probe done
+2025-05-01 20:07:08,727 DEBUG   SenderThread:51538 [sender.py:send():303] send: files
+2025-05-01 20:07:08,727 INFO    SenderThread:51538 [sender.py:_save_file():1171] saving file wandb-metadata.json with policy now
+2025-05-01 20:07:08,745 DEBUG   HandlerThread:51538 [handler.py:handle_request():138] handle_request: stop_status
+2025-05-01 20:07:08,746 DEBUG   SenderThread:51538 [sender.py:send_request():317] send_request: stop_status
+2025-05-01 20:07:08,865 INFO    Thread-12 :51538 [dir_watcher.py:_on_file_created():275] file/dir created: /mnt/c/Users/Oguzhan Karaarslan/Desktop/repos/pogema-lacam-dcc/algorithms/wandb/run-20250501_200706-h29w7ie3/files/wandb-summary.json
+2025-05-01 20:07:08,870 INFO    Thread-12 :51538 [dir_watcher.py:_on_file_created():275] file/dir created: /mnt/c/Users/Oguzhan Karaarslan/Desktop/repos/pogema-lacam-dcc/algorithms/wandb/run-20250501_200706-h29w7ie3/files/requirements.txt
+2025-05-01 20:07:08,874 INFO    Thread-12 :51538 [dir_watcher.py:_on_file_created():275] file/dir created: /mnt/c/Users/Oguzhan Karaarslan/Desktop/repos/pogema-lacam-dcc/algorithms/wandb/run-20250501_200706-h29w7ie3/files/wandb-metadata.json
+2025-05-01 20:07:09,131 DEBUG   SenderThread:51538 [sender.py:send():303] send: telemetry
+2025-05-01 20:07:09,137 DEBUG   SenderThread:51538 [sender.py:send():303] send: telemetry
+2025-05-01 20:07:09,746 INFO    Thread-16 :51538 [upload_job.py:push():143] Uploaded file /tmp/tmpg3_fgemzwandb/9f7js53s-wandb-metadata.json
+2025-05-01 20:07:09,873 INFO    Thread-12 :51538 [dir_watcher.py:_on_file_created():275] file/dir created: /mnt/c/Users/Oguzhan Karaarslan/Desktop/repos/pogema-lacam-dcc/algorithms/wandb/run-20250501_200706-h29w7ie3/files/output.log
+2025-05-01 20:07:11,904 INFO    Thread-12 :51538 [dir_watcher.py:_on_file_modified():292] file/dir modified: /mnt/c/Users/Oguzhan Karaarslan/Desktop/repos/pogema-lacam-dcc/algorithms/wandb/run-20250501_200706-h29w7ie3/files/output.log
+2025-05-01 20:07:13,932 INFO    Thread-12 :51538 [dir_watcher.py:_on_file_modified():292] file/dir modified: /mnt/c/Users/Oguzhan Karaarslan/Desktop/repos/pogema-lacam-dcc/algorithms/wandb/run-20250501_200706-h29w7ie3/files/output.log
+2025-05-01 20:07:24,139 DEBUG   HandlerThread:51538 [handler.py:handle_request():138] handle_request: stop_status
+2025-05-01 20:07:24,140 DEBUG   SenderThread:51538 [sender.py:send_request():317] send_request: stop_status

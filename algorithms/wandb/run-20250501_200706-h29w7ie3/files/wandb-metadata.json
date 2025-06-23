@@ -1,0 +1,23 @@
+{
+    "os": "Linux-5.15.167.4-microsoft-standard-WSL2-x86_64-with-glibc2.31",
+    "python": "3.10.16",
+    "heartbeatAt": "2025-05-01T17:07:08.428868",
+    "startedAt": "2025-05-01T17:07:06.683383",
+    "docker": null,
+    "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+    "gpu_count": 1,
+    "cpu_count": 20,
+    "cuda": null,
+    "args": null,
+    "state": "running",
+    "program": "<python with no main file>",
+    "git": {
+        "remote": "https://github.com/Oguzhn8/pogema-lacam-dcc.git",
+        "commit": null
+    },
+    "email": null,
+    "root": "/mnt/c/Users/Oguzhan Karaarslan/Desktop/repos/pogema-lacam-dcc",
+    "host": "DESKTOP-OTAQ5Q7",
+    "username": "oguzhan",
+    "executable": "/bin/python3.10"
+}

@@ -1,0 +1,26 @@
+
+[1m2025-05-01 at 16:15:40 | Toolbox INFO | Starting: LaCAM, {'name': 'LaCAM'}
+Traceback (most recent call last):
+  File "C:\Users\Oguzhan Karaarslan\Desktop\repos\pogema-lacam-dcc\algorithms\eval.py", line 56, in <module>
+    main()
+  File "C:\Users\Oguzhan Karaarslan\Desktop\repos\pogema-lacam-dcc\algorithms\eval.py", line 51, in main
+    evaluation(evaluation_config, eval_dir=eval_dir)
+  File "C:\Users\Oguzhan Karaarslan\Desktop\repos\pogema-lacam-dcc\.venv\lib\site-packages\pogema_toolbox\evaluator.py", line 377, in evaluation
+    metrics = balanced_dask_backend(algo_cfg, environment_configs, key)
+  File "C:\Users\Oguzhan Karaarslan\Desktop\repos\pogema-lacam-dcc\.venv\lib\site-packages\pogema_toolbox\evaluator.py", line 285, in balanced_dask_backend
+    results = client.gather(futures)
+  File "C:\Users\Oguzhan Karaarslan\Desktop\repos\pogema-lacam-dcc\.venv\lib\site-packages\distributed\client.py", line 2542, in gather
+    return self.sync(
+  File "C:\Users\Oguzhan Karaarslan\Desktop\repos\pogema-lacam-dcc\.venv\lib\site-packages\pogema_toolbox\evaluator.py", line 66, in sequential_backend
+    algo = registry.create_algorithm(algo_name, **algo_config)
+  File "C:\Users\Oguzhan Karaarslan\Desktop\repos\pogema-lacam-dcc\.venv\lib\site-packages\pogema_toolbox\registry.py", line 92, in create_algorithm
+    return algo_make_func(config)
+  File "C:\Users\Oguzhan Karaarslan\Desktop\repos\pogema-lacam-dcc\algorithms\lacam\inference.py", line 99, in __init__
+    self.lacam_lib = LacamLib(cfg.lacam_lib_path)
+  File "C:\Users\Oguzhan Karaarslan\Desktop\repos\pogema-lacam-dcc\algorithms\lacam\inference.py", line 12, in __init__
+    self.load_library()
+  File "C:\Users\Oguzhan Karaarslan\Desktop\repos\pogema-lacam-dcc\algorithms\lacam\inference.py", line 15, in load_library
+    self._lacam_lib = ctypes.CDLL(self.lib_path)
+  File "C:\Users\Oguzhan Karaarslan\AppData\Local\Programs\Python\Python310\lib\ctypes\__init__.py", line 374, in __init__
+    self._handle = _dlopen(self._name, mode)
+FileNotFoundError: Could not find module 'C:\Users\Oguzhan Karaarslan\Desktop\repos\pogema-lacam-dcc\algorithms\lacam\liblacam.so' (or one of its dependencies). Try using the full path with constructor syntax.

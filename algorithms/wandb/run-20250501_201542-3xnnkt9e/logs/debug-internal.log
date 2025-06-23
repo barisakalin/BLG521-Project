@@ -1,0 +1,147 @@
+2025-05-01 20:15:43,015 INFO    StreamThr :52908 [internal.py:wandb_internal():88] W&B internal server running at pid: 52908, started at: 2025-05-01 20:15:43.012749
+2025-05-01 20:15:43,017 DEBUG   HandlerThread:52908 [handler.py:handle_request():138] handle_request: status
+2025-05-01 20:15:43,021 DEBUG   SenderThread:52908 [sender.py:send_request():317] send_request: status
+2025-05-01 20:15:43,023 INFO    WriterThread:52908 [datastore.py:open_for_write():75] open: /mnt/c/Users/Oguzhan Karaarslan/Desktop/repos/pogema-lacam-dcc/algorithms/wandb/run-20250501_201542-3xnnkt9e/run-3xnnkt9e.wandb
+2025-05-01 20:15:43,023 DEBUG   SenderThread:52908 [sender.py:send():303] send: header
+2025-05-01 20:15:43,072 DEBUG   SenderThread:52908 [sender.py:send():303] send: run
+2025-05-01 20:15:43,782 DEBUG   HandlerThread:52908 [handler.py:handle_request():138] handle_request: check_version
+2025-05-01 20:15:43,796 INFO    SenderThread:52908 [dir_watcher.py:__init__():216] watching files in: /mnt/c/Users/Oguzhan Karaarslan/Desktop/repos/pogema-lacam-dcc/algorithms/wandb/run-20250501_201542-3xnnkt9e/files
+2025-05-01 20:15:43,796 INFO    SenderThread:52908 [sender.py:_start_run_threads():928] run started: 3xnnkt9e with start time 1746119743.015934
+2025-05-01 20:15:43,797 DEBUG   SenderThread:52908 [sender.py:send():303] send: summary
+2025-05-01 20:15:43,803 INFO    SenderThread:52908 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2025-05-01 20:15:43,808 DEBUG   SenderThread:52908 [sender.py:send_request():317] send_request: check_version
+2025-05-01 20:15:44,124 DEBUG   HandlerThread:52908 [handler.py:handle_request():138] handle_request: run_start
+2025-05-01 20:15:44,280 DEBUG   HandlerThread:52908 [meta.py:__init__():34] meta init
+2025-05-01 20:15:44,280 DEBUG   HandlerThread:52908 [meta.py:__init__():49] meta init done
+2025-05-01 20:15:44,280 DEBUG   HandlerThread:52908 [meta.py:probe():215] probe
+2025-05-01 20:15:44,335 DEBUG   HandlerThread:52908 [meta.py:_setup_git():205] setup git
+2025-05-01 20:15:44,387 DEBUG   HandlerThread:52908 [meta.py:_setup_git():212] setup git done
+2025-05-01 20:15:44,387 DEBUG   HandlerThread:52908 [meta.py:_save_pip():53] save pip
+2025-05-01 20:15:44,391 DEBUG   HandlerThread:52908 [meta.py:_save_pip():67] save pip done
+2025-05-01 20:15:44,391 DEBUG   HandlerThread:52908 [meta.py:probe():253] probe done
+2025-05-01 20:15:44,457 DEBUG   SenderThread:52908 [sender.py:send():303] send: files
+2025-05-01 20:15:44,458 INFO    SenderThread:52908 [sender.py:_save_file():1171] saving file wandb-metadata.json with policy now
+2025-05-01 20:15:44,469 DEBUG   HandlerThread:52908 [handler.py:handle_request():138] handle_request: stop_status
+2025-05-01 20:15:44,474 DEBUG   SenderThread:52908 [sender.py:send_request():317] send_request: stop_status
+2025-05-01 20:15:44,805 INFO    Thread-12 :52908 [dir_watcher.py:_on_file_created():275] file/dir created: /mnt/c/Users/Oguzhan Karaarslan/Desktop/repos/pogema-lacam-dcc/algorithms/wandb/run-20250501_201542-3xnnkt9e/files/wandb-metadata.json
+2025-05-01 20:15:44,807 INFO    Thread-12 :52908 [dir_watcher.py:_on_file_created():275] file/dir created: /mnt/c/Users/Oguzhan Karaarslan/Desktop/repos/pogema-lacam-dcc/algorithms/wandb/run-20250501_201542-3xnnkt9e/files/requirements.txt
+2025-05-01 20:15:44,810 INFO    Thread-12 :52908 [dir_watcher.py:_on_file_created():275] file/dir created: /mnt/c/Users/Oguzhan Karaarslan/Desktop/repos/pogema-lacam-dcc/algorithms/wandb/run-20250501_201542-3xnnkt9e/files/wandb-summary.json
+2025-05-01 20:15:44,830 DEBUG   SenderThread:52908 [sender.py:send():303] send: telemetry
+2025-05-01 20:15:44,838 DEBUG   SenderThread:52908 [sender.py:send():303] send: telemetry
+2025-05-01 20:15:45,236 INFO    Thread-16 :52908 [upload_job.py:push():143] Uploaded file /tmp/tmpd_wkuzupwandb/bm9pip6k-wandb-metadata.json
+2025-05-01 20:15:45,813 INFO    Thread-12 :52908 [dir_watcher.py:_on_file_created():275] file/dir created: /mnt/c/Users/Oguzhan Karaarslan/Desktop/repos/pogema-lacam-dcc/algorithms/wandb/run-20250501_201542-3xnnkt9e/files/output.log
+2025-05-01 20:15:47,856 INFO    Thread-12 :52908 [dir_watcher.py:_on_file_modified():292] file/dir modified: /mnt/c/Users/Oguzhan Karaarslan/Desktop/repos/pogema-lacam-dcc/algorithms/wandb/run-20250501_201542-3xnnkt9e/files/output.log
+2025-05-01 20:15:49,234 DEBUG   SenderThread:52908 [sender.py:send():303] send: exit
+2025-05-01 20:15:49,234 INFO    SenderThread:52908 [sender.py:send_exit():442] handling exit code: 1
+2025-05-01 20:15:49,235 INFO    SenderThread:52908 [sender.py:send_exit():444] handling runtime: 5
+2025-05-01 20:15:49,243 INFO    SenderThread:52908 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2025-05-01 20:15:49,245 INFO    SenderThread:52908 [sender.py:send_exit():450] send defer
+2025-05-01 20:15:49,246 DEBUG   HandlerThread:52908 [handler.py:handle_request():138] handle_request: defer
+2025-05-01 20:15:49,247 INFO    HandlerThread:52908 [handler.py:handle_request_defer():161] handle defer: 0
+2025-05-01 20:15:49,248 DEBUG   SenderThread:52908 [sender.py:send_request():317] send_request: defer
+2025-05-01 20:15:49,248 INFO    SenderThread:52908 [sender.py:send_request_defer():459] handle sender defer: 0
+2025-05-01 20:15:49,249 INFO    SenderThread:52908 [sender.py:transition_state():463] send defer: 1
+2025-05-01 20:15:49,249 DEBUG   HandlerThread:52908 [handler.py:handle_request():138] handle_request: defer
+2025-05-01 20:15:49,250 INFO    HandlerThread:52908 [handler.py:handle_request_defer():161] handle defer: 1
+2025-05-01 20:15:49,346 DEBUG   SenderThread:52908 [sender.py:send_request():317] send_request: defer
+2025-05-01 20:15:49,347 INFO    SenderThread:52908 [sender.py:send_request_defer():459] handle sender defer: 1
+2025-05-01 20:15:49,347 INFO    SenderThread:52908 [sender.py:transition_state():463] send defer: 2
+2025-05-01 20:15:49,347 DEBUG   SenderThread:52908 [sender.py:send():303] send: stats
+2025-05-01 20:15:49,348 DEBUG   HandlerThread:52908 [handler.py:handle_request():138] handle_request: defer
+2025-05-01 20:15:49,348 INFO    HandlerThread:52908 [handler.py:handle_request_defer():161] handle defer: 2
+2025-05-01 20:15:49,349 DEBUG   SenderThread:52908 [sender.py:send_request():317] send_request: defer
+2025-05-01 20:15:49,349 INFO    SenderThread:52908 [sender.py:send_request_defer():459] handle sender defer: 2
+2025-05-01 20:15:49,349 INFO    SenderThread:52908 [sender.py:transition_state():463] send defer: 3
+2025-05-01 20:15:49,350 DEBUG   HandlerThread:52908 [handler.py:handle_request():138] handle_request: defer
+2025-05-01 20:15:49,350 INFO    HandlerThread:52908 [handler.py:handle_request_defer():161] handle defer: 3
+2025-05-01 20:15:49,351 DEBUG   SenderThread:52908 [sender.py:send_request():317] send_request: defer
+2025-05-01 20:15:49,351 INFO    SenderThread:52908 [sender.py:send_request_defer():459] handle sender defer: 3
+2025-05-01 20:15:49,351 INFO    SenderThread:52908 [sender.py:transition_state():463] send defer: 4
+2025-05-01 20:15:49,352 DEBUG   HandlerThread:52908 [handler.py:handle_request():138] handle_request: defer
+2025-05-01 20:15:49,352 INFO    HandlerThread:52908 [handler.py:handle_request_defer():161] handle defer: 4
+2025-05-01 20:15:49,352 DEBUG   SenderThread:52908 [sender.py:send():303] send: summary
+2025-05-01 20:15:49,355 INFO    SenderThread:52908 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2025-05-01 20:15:49,357 DEBUG   SenderThread:52908 [sender.py:send_request():317] send_request: defer
+2025-05-01 20:15:49,357 INFO    SenderThread:52908 [sender.py:send_request_defer():459] handle sender defer: 4
+2025-05-01 20:15:49,357 INFO    SenderThread:52908 [sender.py:transition_state():463] send defer: 5
+2025-05-01 20:15:49,358 DEBUG   HandlerThread:52908 [handler.py:handle_request():138] handle_request: defer
+2025-05-01 20:15:49,358 INFO    HandlerThread:52908 [handler.py:handle_request_defer():161] handle defer: 5
+2025-05-01 20:15:49,359 DEBUG   SenderThread:52908 [sender.py:send_request():317] send_request: defer
+2025-05-01 20:15:49,359 INFO    SenderThread:52908 [sender.py:send_request_defer():459] handle sender defer: 5
+2025-05-01 20:15:49,766 INFO    SenderThread:52908 [sender.py:transition_state():463] send defer: 6
+2025-05-01 20:15:49,768 DEBUG   HandlerThread:52908 [handler.py:handle_request():138] handle_request: defer
+2025-05-01 20:15:49,769 INFO    HandlerThread:52908 [handler.py:handle_request_defer():161] handle defer: 6
+2025-05-01 20:15:49,769 DEBUG   SenderThread:52908 [sender.py:send_request():317] send_request: defer
+2025-05-01 20:15:49,770 INFO    SenderThread:52908 [sender.py:send_request_defer():459] handle sender defer: 6
+2025-05-01 20:15:49,905 INFO    Thread-12 :52908 [dir_watcher.py:_on_file_modified():292] file/dir modified: /mnt/c/Users/Oguzhan Karaarslan/Desktop/repos/pogema-lacam-dcc/algorithms/wandb/run-20250501_201542-3xnnkt9e/files/wandb-summary.json
+2025-05-01 20:15:49,909 INFO    Thread-12 :52908 [dir_watcher.py:_on_file_modified():292] file/dir modified: /mnt/c/Users/Oguzhan Karaarslan/Desktop/repos/pogema-lacam-dcc/algorithms/wandb/run-20250501_201542-3xnnkt9e/files/config.yaml
+2025-05-01 20:15:50,235 DEBUG   HandlerThread:52908 [handler.py:handle_request():138] handle_request: poll_exit
+2025-05-01 20:15:50,856 INFO    SenderThread:52908 [sender.py:transition_state():463] send defer: 7
+2025-05-01 20:15:50,856 DEBUG   SenderThread:52908 [sender.py:send_request():317] send_request: poll_exit
+2025-05-01 20:15:50,857 DEBUG   HandlerThread:52908 [handler.py:handle_request():138] handle_request: defer
+2025-05-01 20:15:50,857 INFO    HandlerThread:52908 [handler.py:handle_request_defer():161] handle defer: 7
+2025-05-01 20:15:50,858 DEBUG   SenderThread:52908 [sender.py:send_request():317] send_request: defer
+2025-05-01 20:15:50,859 INFO    SenderThread:52908 [sender.py:send_request_defer():459] handle sender defer: 7
+2025-05-01 20:15:50,859 INFO    SenderThread:52908 [dir_watcher.py:finish():362] shutting down directory watcher
+2025-05-01 20:15:50,955 INFO    SenderThread:52908 [dir_watcher.py:_on_file_modified():292] file/dir modified: /mnt/c/Users/Oguzhan Karaarslan/Desktop/repos/pogema-lacam-dcc/algorithms/wandb/run-20250501_201542-3xnnkt9e/files/output.log
+2025-05-01 20:15:50,959 INFO    SenderThread:52908 [dir_watcher.py:finish():392] scan: /mnt/c/Users/Oguzhan Karaarslan/Desktop/repos/pogema-lacam-dcc/algorithms/wandb/run-20250501_201542-3xnnkt9e/files
+2025-05-01 20:15:50,964 INFO    SenderThread:52908 [dir_watcher.py:finish():406] scan save: /mnt/c/Users/Oguzhan Karaarslan/Desktop/repos/pogema-lacam-dcc/algorithms/wandb/run-20250501_201542-3xnnkt9e/files/config.yaml config.yaml
+2025-05-01 20:15:50,975 INFO    SenderThread:52908 [dir_watcher.py:finish():406] scan save: /mnt/c/Users/Oguzhan Karaarslan/Desktop/repos/pogema-lacam-dcc/algorithms/wandb/run-20250501_201542-3xnnkt9e/files/output.log output.log
+2025-05-01 20:15:50,985 INFO    SenderThread:52908 [dir_watcher.py:finish():406] scan save: /mnt/c/Users/Oguzhan Karaarslan/Desktop/repos/pogema-lacam-dcc/algorithms/wandb/run-20250501_201542-3xnnkt9e/files/requirements.txt requirements.txt
+2025-05-01 20:15:50,996 INFO    SenderThread:52908 [dir_watcher.py:finish():406] scan save: /mnt/c/Users/Oguzhan Karaarslan/Desktop/repos/pogema-lacam-dcc/algorithms/wandb/run-20250501_201542-3xnnkt9e/files/wandb-metadata.json wandb-metadata.json
+2025-05-01 20:15:50,997 INFO    SenderThread:52908 [dir_watcher.py:finish():406] scan save: /mnt/c/Users/Oguzhan Karaarslan/Desktop/repos/pogema-lacam-dcc/algorithms/wandb/run-20250501_201542-3xnnkt9e/files/wandb-summary.json wandb-summary.json
+2025-05-01 20:15:51,010 INFO    SenderThread:52908 [sender.py:transition_state():463] send defer: 8
+2025-05-01 20:15:51,011 DEBUG   HandlerThread:52908 [handler.py:handle_request():138] handle_request: defer
+2025-05-01 20:15:51,011 INFO    HandlerThread:52908 [handler.py:handle_request_defer():161] handle defer: 8
+2025-05-01 20:15:51,012 DEBUG   SenderThread:52908 [sender.py:send_request():317] send_request: defer
+2025-05-01 20:15:51,014 INFO    SenderThread:52908 [sender.py:send_request_defer():459] handle sender defer: 8
+2025-05-01 20:15:51,015 INFO    SenderThread:52908 [file_pusher.py:finish():168] shutting down file pusher
+2025-05-01 20:15:51,236 DEBUG   HandlerThread:52908 [handler.py:handle_request():138] handle_request: poll_exit
+2025-05-01 20:15:51,237 DEBUG   SenderThread:52908 [sender.py:send_request():317] send_request: poll_exit
+2025-05-01 20:15:51,800 INFO    Thread-18 :52908 [upload_job.py:push():143] Uploaded file /mnt/c/Users/Oguzhan Karaarslan/Desktop/repos/pogema-lacam-dcc/algorithms/wandb/run-20250501_201542-3xnnkt9e/files/output.log
+2025-05-01 20:15:51,805 INFO    Thread-19 :52908 [upload_job.py:push():143] Uploaded file /mnt/c/Users/Oguzhan Karaarslan/Desktop/repos/pogema-lacam-dcc/algorithms/wandb/run-20250501_201542-3xnnkt9e/files/requirements.txt
+2025-05-01 20:15:51,806 INFO    Thread-20 :52908 [upload_job.py:push():143] Uploaded file /mnt/c/Users/Oguzhan Karaarslan/Desktop/repos/pogema-lacam-dcc/algorithms/wandb/run-20250501_201542-3xnnkt9e/files/wandb-summary.json
+2025-05-01 20:15:51,806 INFO    Thread-17 :52908 [upload_job.py:push():143] Uploaded file /mnt/c/Users/Oguzhan Karaarslan/Desktop/repos/pogema-lacam-dcc/algorithms/wandb/run-20250501_201542-3xnnkt9e/files/config.yaml
+2025-05-01 20:15:52,011 INFO    Thread-11 (_thread_body):52908 [sender.py:transition_state():463] send defer: 9
+2025-05-01 20:15:52,013 DEBUG   HandlerThread:52908 [handler.py:handle_request():138] handle_request: defer
+2025-05-01 20:15:52,014 INFO    HandlerThread:52908 [handler.py:handle_request_defer():161] handle defer: 9
+2025-05-01 20:15:52,015 DEBUG   SenderThread:52908 [sender.py:send_request():317] send_request: defer
+2025-05-01 20:15:52,016 INFO    SenderThread:52908 [sender.py:send_request_defer():459] handle sender defer: 9
+2025-05-01 20:15:52,017 INFO    SenderThread:52908 [file_pusher.py:join():173] waiting for file pusher
+2025-05-01 20:15:52,018 INFO    SenderThread:52908 [sender.py:transition_state():463] send defer: 10
+2025-05-01 20:15:52,019 DEBUG   HandlerThread:52908 [handler.py:handle_request():138] handle_request: defer
+2025-05-01 20:15:52,021 INFO    HandlerThread:52908 [handler.py:handle_request_defer():161] handle defer: 10
+2025-05-01 20:15:52,022 DEBUG   SenderThread:52908 [sender.py:send_request():317] send_request: defer
+2025-05-01 20:15:52,023 INFO    SenderThread:52908 [sender.py:send_request_defer():459] handle sender defer: 10
+2025-05-01 20:15:52,238 DEBUG   HandlerThread:52908 [handler.py:handle_request():138] handle_request: poll_exit
+2025-05-01 20:15:52,712 INFO    SenderThread:52908 [sender.py:transition_state():463] send defer: 11
+2025-05-01 20:15:52,713 DEBUG   SenderThread:52908 [sender.py:send_request():317] send_request: poll_exit
+2025-05-01 20:15:52,713 DEBUG   HandlerThread:52908 [handler.py:handle_request():138] handle_request: defer
+2025-05-01 20:15:52,714 INFO    HandlerThread:52908 [handler.py:handle_request_defer():161] handle defer: 11
+2025-05-01 20:15:52,716 DEBUG   SenderThread:52908 [sender.py:send_request():317] send_request: defer
+2025-05-01 20:15:52,716 INFO    SenderThread:52908 [sender.py:send_request_defer():459] handle sender defer: 11
+2025-05-01 20:15:52,717 INFO    SenderThread:52908 [sender.py:transition_state():463] send defer: 12
+2025-05-01 20:15:52,718 DEBUG   SenderThread:52908 [sender.py:send():303] send: final
+2025-05-01 20:15:52,719 DEBUG   HandlerThread:52908 [handler.py:handle_request():138] handle_request: defer
+2025-05-01 20:15:52,720 INFO    HandlerThread:52908 [handler.py:handle_request_defer():161] handle defer: 12
+2025-05-01 20:15:52,719 DEBUG   SenderThread:52908 [sender.py:send():303] send: footer
+2025-05-01 20:15:52,722 DEBUG   SenderThread:52908 [sender.py:send_request():317] send_request: defer
+2025-05-01 20:15:52,723 INFO    SenderThread:52908 [sender.py:send_request_defer():459] handle sender defer: 12
+2025-05-01 20:15:52,725 DEBUG   HandlerThread:52908 [handler.py:handle_request():138] handle_request: poll_exit
+2025-05-01 20:15:52,727 DEBUG   SenderThread:52908 [sender.py:send_request():317] send_request: poll_exit
+2025-05-01 20:15:52,727 DEBUG   HandlerThread:52908 [handler.py:handle_request():138] handle_request: poll_exit
+2025-05-01 20:15:52,729 DEBUG   HandlerThread:52908 [handler.py:handle_request():138] handle_request: server_info
+2025-05-01 20:15:52,729 DEBUG   SenderThread:52908 [sender.py:send_request():317] send_request: poll_exit
+2025-05-01 20:15:52,730 DEBUG   SenderThread:52908 [sender.py:send_request():317] send_request: server_info
+2025-05-01 20:15:52,730 DEBUG   HandlerThread:52908 [handler.py:handle_request():138] handle_request: get_summary
+2025-05-01 20:15:52,734 DEBUG   HandlerThread:52908 [handler.py:handle_request():138] handle_request: sampled_history
+2025-05-01 20:15:53,329 INFO    MainThread:52908 [wandb_run.py:_footer_history_summary_info():3377] rendering history
+2025-05-01 20:15:53,330 INFO    MainThread:52908 [wandb_run.py:_footer_history_summary_info():3409] rendering summary
+2025-05-01 20:15:53,331 INFO    MainThread:52908 [wandb_run.py:_footer_sync_info():3333] logging synced files
+2025-05-01 20:15:53,333 DEBUG   HandlerThread:52908 [handler.py:handle_request():138] handle_request: shutdown
+2025-05-01 20:15:53,334 INFO    HandlerThread:52908 [handler.py:finish():814] shutting down handler
+2025-05-01 20:15:53,719 INFO    WriterThread:52908 [datastore.py:close():279] close: /mnt/c/Users/Oguzhan Karaarslan/Desktop/repos/pogema-lacam-dcc/algorithms/wandb/run-20250501_201542-3xnnkt9e/run-3xnnkt9e.wandb
+2025-05-01 20:15:54,326 INFO    SenderThread:52908 [sender.py:finish():1331] shutting down sender
+2025-05-01 20:15:54,328 INFO    SenderThread:52908 [file_pusher.py:finish():168] shutting down file pusher
+2025-05-01 20:15:54,329 INFO    SenderThread:52908 [file_pusher.py:join():173] waiting for file pusher
+2025-05-01 20:15:54,336 INFO    MainThread:52908 [internal.py:handle_exit():78] Internal process exited

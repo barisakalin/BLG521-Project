@@ -1,0 +1,24 @@
+{
+    "os": "Windows-10-10.0.26100-SP0",
+    "python": "3.10.8",
+    "heartbeatAt": "2025-05-01T13:15:40.708387",
+    "startedAt": "2025-05-01T13:15:39.677706",
+    "docker": null,
+    "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+    "gpu_count": 1,
+    "cpu_count": 20,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "C:\\Users\\Oguzhan Karaarslan\\Desktop\\repos\\pogema-lacam-dcc\\algorithms\\eval.py",
+    "codePath": "algorithms\\eval.py",
+    "git": {
+        "remote": "https://github.com/Oguzhn8/pogema-lacam-dcc.git",
+        "commit": null
+    },
+    "email": null,
+    "root": "C:/Users/Oguzhan Karaarslan/Desktop/repos/pogema-lacam-dcc",
+    "host": "DESKTOP-OTAQ5Q7",
+    "username": "Oguzhan Karaarslan",
+    "executable": "C:\\Users\\Oguzhan Karaarslan\\Desktop\\repos\\pogema-lacam-dcc\\.venv\\Scripts\\python.exe"
+}
